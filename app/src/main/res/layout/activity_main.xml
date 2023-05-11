@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+   
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      app:titleTextColor="#000"
+      android:background="#e6e6e6"
+      android:id="@+id/toolbar"
+      app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+   </androidx.appcompat.widget.Toolbar>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="200dp"
+       android:weightSum="3"
+       android:orientation="vertical"
+       android:padding="10sp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:weightSum="2"
+          android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="0.8"
+             android:src="@drawable/delhi"
+             android:scaleType="fitXY"/>
+         <Button
+             android:id="@+id/delhi"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1.2"
+             android:text="Delhi Hotels>>>"
+             android:textSize="20dp"
+             android:background="@android:color/transparent"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:weightSum="2"
+          android:orientation="horizontal">
+
+         <Button
+             android:id="@+id/mumbai"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1.2"
+             android:text="Mumbai Hotels>>>"
+             android:textSize="20dp"
+             android:background="@android:color/transparent"/>
+
+         <ImageView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="0.8"
+             android:src="@drawable/mumbai"
+             android:scaleType="fitXY"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:weightSum="2"
+          android:orientation="horizontal">
+
+         <ImageView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="0.8"
+             android:src="@drawable/chennai"
+             android:scaleType="fitXY"/>
+
+         <Button
+             android:id="@+id/chennai"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1.2"
+             android:text="Chennai Hotels>>>"
+             android:textSize="20dp"
+             android:background="@android:color/transparent"/>
+      </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

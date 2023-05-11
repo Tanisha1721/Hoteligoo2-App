@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hotel2"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:padding="10dp">
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="XYZ Hotel"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:background="#c19f7b"
+                    android:padding="5dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gold Coast, Plot no.GH7, Crossing Republic, 201016"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price for Two"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.5000 per night for two max"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Details:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="An outdoor pool, spa treatments at Kaya Kalp Spa and 24-hour room service are available. The hotel also houses Bukhara, rated one of the top 50 restaurants in the world, which specializes in traditional North Indian food prepared in a clay oven."
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check In Date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                
+                <EditText
+                    android:id="@+id/checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Date"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check Out Date"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#c19f7b"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Date"/>
+
+                <Button
+                    android:id="@+id/btn_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm Booking"
+                    android:textSize="20dp"
+                    android:background="#c19f7b"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

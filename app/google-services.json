@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700773541821",
+    "project_id": "hoteligoo",
+    "storage_bucket": "hoteligoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700773541821:android:da0183838d99e193a654d4",
+        "android_client_info": {
+          "package_name": "com.example.hoteligoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700773541821-k09q0hidk62e9ut9rri2b7c68otrtbtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8twOtl3i8c6ZIr7hTHacOiqH9QWbnjW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700773541821-k09q0hidk62e9ut9rri2b7c68otrtbtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
